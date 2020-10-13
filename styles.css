@@ -1,0 +1,37 @@
+*{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    background-color: gold;
+    color: blue;
+    border-radius: 10px;
+    margin: 20px;
+    outline: none;
+
+}
+
+#counting {
+    padding: 12px;
+    font-size: 1.8rem;
+    color: blue;
+    
+}
+
+#warning {
+    font-size: 1.5rem;
+    border-bottom: 3px dotted rgb(228, 55, 2);
+    color: red;
+}
