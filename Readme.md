@@ -2,7 +2,7 @@
 
 Realizar un contador de clicks, dando funcionalidad a dos botones con JS.
 
-## Prerequisitos y herramientas 🛠
+## Herramientas 🛠
 
 - Visual Studio Code
 - Control de versiones con git
