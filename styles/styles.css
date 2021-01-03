@@ -1,37 +1,42 @@
-*{
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/707676/pexels-photo-707676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#principalContainer {
+  width: 500px;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 300px;
 }
 
 button {
-    width: 120px;
-    height: 50px;
-    background-color: gold;
-    color: blue;
-    border-radius: 10px;
-    margin: 20px;
-    outline: none;
-
+  width: 120px;
+  height: 50px;
+  background-color: gold;
+  color: blue;
+  border-radius: 10px;
+  margin: 20px;
+  outline: none;
 }
 
 #counting {
-    padding: 12px;
-    font-size: 1.8rem;
-    color: blue;
-    
-}
-
-#warning {
-    font-size: 1.5rem;
-    border-bottom: 3px dotted rgb(228, 55, 2);
-    color: red;
+  padding: 12px;
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
