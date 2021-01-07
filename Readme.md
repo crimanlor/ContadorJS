@@ -19,6 +19,6 @@ Realizar un contador de clicks, dando funcionalidad a dos botones con JS.
 
 ![Demo](contador.gif)
 
-## Deploy ejercicio en Github pages 📱
+## Deploy con Netlify 📱
 
 https://contadorjs.netlify.app/
